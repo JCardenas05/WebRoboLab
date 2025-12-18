@@ -1,8 +1,13 @@
 # WebRoboLab - Virtual Robotic Arm Laboratory
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://j-cardenas.com/webrobolab/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 WebRoboLab is a virtual laboratory designed for the simulation and control of a 6-axis robotic arm. This project leverages the power of web technologies to provide an interactive 3D environment where users can experiment with robotic kinematics.
 
 The robotic arm was modeled using **Fusion 360** and **Blender**, utilizing bone chains for realistic articulation. The rendering and physics engine are powered by **Three.js** via **React Three Fiber**.
+
+🚀 **[Try the live demo here](https://j-cardenas.com/webrobolab/)**
 
 ![Robotic Arm Model](.github/images/blendBone.png)
 
@@ -47,23 +52,47 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+```bash
+   git clone https://github.com/tu-usuario/WebRoboLab.git
    cd WebRoboLab
-   ```
+```
 
 2. Install dependencies:
-   ```bash
+```bash
    npm install
-   ```
+```
 
 3. Start the development server:
-   ```bash
+```bash
    npm run dev
-   ```
+```
 
 4. Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`).
+
+## Deployment
+
+This project is deployed and available at: **[https://j-cardenas.com/webrobolab/](https://j-cardenas.com/webrobolab/)**
+
+To deploy your own instance:
+```bash
+# Build for production
+npm run build
+
+# The dist folder contains the production-ready files
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
 [MIT](LICENSE)
+
+## Author
+
+**J. Cárdenas**
+- Website: [j-cardenas.com](https://j-cardenas.com)
+- Project: [WebRoboLab](https://j-cardenas.com/webrobolab/)
+
+---
