@@ -172,5 +172,5 @@ export default function RobotArmIK({ target }) {
     solveIKCCD(bones.current, pointTarget.current)
   })
 
-  return <primitive object={scene} />
+  return <primitive object={scene} scale={0.75} />
 }

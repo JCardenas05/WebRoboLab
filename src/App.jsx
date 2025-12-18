@@ -33,7 +33,7 @@ export default function App() {
       </div>
 
       {/* Canvas */}
-      <Canvas camera={{ position: [4, 4, 6], fov: 45}}>
+      <Canvas camera={{ position: [45, 70, 45], fov: 45}}>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
         <gridHelper args={[100, 20]} />
