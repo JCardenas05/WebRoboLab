@@ -53,7 +53,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/tu-usuario/WebRoboLab.git
+   git clone https://github.com/JCardenas05/WebRoboLab.git
    cd WebRoboLab
 ```
 
@@ -68,22 +68,6 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ```
 
 4. Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`).
-
-## Deployment
-
-This project is deployed and available at: **[https://j-cardenas.com/webrobolab/](https://j-cardenas.com/webrobolab/)**
-
-To deploy your own instance:
-```bash
-# Build for production
-npm run build
-
-# The dist folder contains the production-ready files
-```
-
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
