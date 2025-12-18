@@ -14,7 +14,7 @@ const BONE_ROTATION_CONFIG = [
 ];
 
 export default function RobotArmFK({ target }) {
-  const { scene } = useGLTF('/models/arm.glb')
+  const { scene } = useGLTF(`${import.meta.env.BASE_URL}models/arm.glb`)
   const base = scene.getObjectByName('Hueso1')
 
   const bones = useRef([])

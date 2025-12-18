@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 
 export default function RobotArmIK({ target }) {
-  const { scene } = useGLTF('/models/arm.glb')
+  const { scene } = useGLTF(`${import.meta.env.BASE_URL}models/arm.glb`)
 
   const bones = useRef([])
   const pointTarget = useRef(null)
