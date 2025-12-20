@@ -1,13 +1,13 @@
 # WebRoboLab - Virtual Robotic Arm Laboratory
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://j-cardenas.com/webrobolab/)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://webrobolab.j-cardenas.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 WebRoboLab is a virtual laboratory designed for the simulation and control of a 6-axis robotic arm. This project leverages the power of web technologies to provide an interactive 3D environment where users can experiment with robotic kinematics.
 
 The robotic arm was modeled using **Fusion 360** and **Blender**, utilizing bone chains for realistic articulation. The rendering and physics engine are powered by **Three.js** via **React Three Fiber**.
 
-🚀 **[Try the live demo here](https://j-cardenas.com/webrobolab/)**
+🚀 **[Try the live demo here](https://webrobolab.j-cardenas.com)**
 
 ![Robotic Arm Model](.github/images/blendBone.png)
 
