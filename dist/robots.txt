@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webrobolab.j-cardenas.com/sitemap.xml

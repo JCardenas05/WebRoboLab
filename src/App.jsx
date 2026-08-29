@@ -18,6 +18,11 @@ export default function App() {
   return (
     <div className="w-screen h-screen relative bg-gray-900">
 
+      {/* Encabezado accesible e indexable: la UI 3D no aporta texto rastreable */}
+      <h1 className="sr-only">
+        WebRoboLab: simulador 3D de un brazo robótico de 6 ejes con cinemática directa (FK) e inversa (IK)
+      </h1>
+
       {/* UI */}
       <div className="absolute top-4 left-4 bg-white p-4 rounded shadow z-10 space-y-2">
         <ControlPanel
